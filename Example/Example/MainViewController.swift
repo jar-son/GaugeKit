@@ -13,7 +13,6 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        gauge.colorsArray = [UIColor.red, UIColor.orange, UIColor.yellow ,UIColor.green]
     }
 
     @IBOutlet var allGauges: [Gauge]!
